@@ -18,8 +18,44 @@ section {
   margin-bottom: 30px;
 }
 
-section img {
+section div {
   width: 90vh;
   height: 60vh;
   margin-left: 30px;
+}
+
+.zoom {
+  box-shadow: 2px 2px #f8cb04, -2px -2px #fafaf9;
+  position: relative;
+}
+
+.zoom:hover {
+  box-shadow: 0px 0px 15px white;
+}
+
+.zoom.mers {
+	background-image: url("https://www.hdcarwallpapers.com/download/mercedes_amg_gt_r_2018_4k-1920x1080.jpg");
+	background-repeat: no-repeat;
+	background-size: 90vh 60vh;
+	background-position: 0 0;
+}
+
+.zoom.lambo {
+	background-image: url("https://cdn.wallpapersafari.com/46/74/WnEYQ6.jpg");
+	background-repeat: no-repeat;
+  background-size: 90vh 60vh;
+}
+
+.zoom.camaro {
+	background-image: url("https://vistapointe.net/images/chevrolet-10.jpg");
+	background-repeat: no-repeat;
+  background-size: 90vh 60vh;
+	background-position: 0 0;
+}
+
+.zoom.chevrolet {
+	background-image: url("https://wallpapercave.com/wp/wp1926546.jpg");
+	background-repeat: no-repeat;
+  background-size: 90vh 60vh;
+	background-position: 0 0;
 }
