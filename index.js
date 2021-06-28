@@ -1,6 +1,6 @@
-const shoesPictures = document.querySelectorAll(".zoom");
+const carZoom = document.querySelectorAll(".zoom");
 
-shoesPictures.forEach((image) => {
+carZoom.forEach((image) => {
     image.addEventListener("mousemove", (e) => {
         image.style =
             "background-size: 1800px 1200px;" +
