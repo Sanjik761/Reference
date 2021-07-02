@@ -41,9 +41,10 @@ section div {
 }
 
 .zoom.lambo {
-	background-image: url("https://cdn.wallpapersafari.com/46/74/WnEYQ6.jpg");
+  background-image: url("https://cdn.wallpapersafari.com/46/74/WnEYQ6.jpg");
 	background-repeat: no-repeat;
   background-size: 90vh 60vh;
+  background-position: 0 0;
 }
 
 .zoom.camaro {
